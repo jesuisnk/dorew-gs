@@ -2,7 +2,7 @@
 
 **Tính năng:**
 - Đăng nhập, đăng ký, tường nhà, tin nhắn, thông báo
-- Chatbox huyền thoại của @dai
+- Chatbox huyền thoại của dai
 - Quản lý bài viết: đăng, sửa, xoá, bài viết, chapter, chuyên mục
 - Up ảnh lên imgur.
 
