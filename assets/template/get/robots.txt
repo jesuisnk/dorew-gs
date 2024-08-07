@@ -1,5 +1,0 @@
-{% set root = current_url()|split('/').0~"//"~current_url()|split('/').2 %}
-User-agent: *
-Allow: /
-
-Sitemap: {{root}}/sitemap.xml
