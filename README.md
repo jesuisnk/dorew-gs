@@ -10,5 +10,5 @@
 - Công nghệ: Apache, PHP 8.0+, MySQL
 - Tải code + data, up lên host.
 - Upload **dorew.sql** lên MySQL Server
-- Config: **/configs/init.php**; **/configs/autoload/system.php**
+- Config: **.env**; **/configs/init.php**; **/configs/autoload/system.php**
 - Quản lý blog: **/manager**
