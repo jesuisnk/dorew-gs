@@ -344,9 +344,11 @@ class UserController extends Controller
 
         $error = null;
 
-        $status = $request->postVar('status', $MyDetail['status']);
+        $status = $request->postVar('status', '');
+        $status = isset($status) ? $status : $MyDetail['status'];
         $avatar = $request->postVar('avatar', '');
-        $cover = $request->postVar('cover', $MyDetail['cover']);
+        $cover = $request->postVar('cover', '');
+        $cover = isset($cover) ? $cover : $MyDetail['cover'];
         $name = $request->postVar('name', $MyDetail['name']);
         $sex = $request->postVar('sex', $MyDetail['sex']);
 
