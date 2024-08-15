@@ -503,7 +503,7 @@ class UserController extends Controller
             }
 
             $UserList = [];
-            $BlockList = explode('.', $SaveData['blocklist']);
+            $BlockList = $SaveData['blocklist'] ? explode('.', $SaveData['blocklist']) : [];
             $BlockList = array_filter($BlockList, fn($value) => $value !== '');
             $CountBlocked = count($BlockList);
             foreach ($BlockList as $nick) {
